@@ -59,14 +59,17 @@ header {
 
 #hero .informacion-contenedor #foto {
     width: 200px;
+    height: 200px;
 }
 
 #hero .informacion-contenedor #foto img {
     border-radius: 100%;
+    display: inline-flexbox;
 }
 #hero .informacion-contenedor .informacion {
     margin-left: 20px;
     font-weight: bold;
+    width: calc(100% - 200px);
 }
 
 #hero .informacion-contenedor .informacion span {
